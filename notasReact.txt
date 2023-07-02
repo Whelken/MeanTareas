@@ -1,0 +1,75 @@
+//Que es un componente?
+
+Un componente es una función que empieza con mayúsculas 
+que retorna un código de html que no es html es js. Tiene diferencias hacia un div que casi
+ siempre empieza con root; 
+
+*sintaxis:
+
+ function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edita el archivo <code>src/App.js</code> y guarda para recargar.
+        </p>
+        <a
+          className="App-link"
+          href="https://platzi.com/reactjs"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Aprendamos React 
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+**Elementos/props:
+Los Elementos están encerrados dentro de componentes , estos son datos 
+que se reciben como parámetros la sintaxis es :
+
+function Kik(props){
+  return(
+    <h1>kik mundo
+      {props.completed} default
+      {props.total}
+    </h1>
+  )
+}
+
+<Kik 
+  completed={1}
+  total={"pedro"}
+/>
+
+//Eventos en React
+Note: React tiene una forma particular de poner los eventos y es la de ponerlos 
+directa mente en la etiqueta de esta forma onClick={Función} todo que empiece con
+con on es un evento de react se pone el on y pegado a este el evento ejemplo click
+onClick
+
+onClick={function} : lo que hace es cuando le den click a la etiqueta ejecute una función
+onChange={función} : Lo que hace es que cuando escribas algo en un input ejecute la función
+
+MoreNote : tenemos algo llamado target que tiene los las características de esta etiqueta 
+por ejemplo value que es para acceder al valor que tiene el input 
+
+(parámetro)=>{
+  console.log(parámetro.target.value)
+  //acabamos de acceder a las propiedades de
+  nuestra etiqueta luego con el target accedemos a sus objetivos como el value
+  y solo ponemos su objetivo for example value.
+}
+
+//useEffect
+Lo que hace este es ejecutarse después que el componente haya ejecutado todo 
+también podemos decirle a nuestro React.useEffect() que se vuelva a ejecutar
+cuando la variable o el objeto sufra un cambio se ejecute otra vez como hacemos
+esto pues pon la variable dentro de array vació for example: React.useEffect(función(),[variable])
+
+React.useEffect(función,[])
