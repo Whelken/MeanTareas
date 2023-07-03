@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MeanTareas/static/css/main.800338e3.css",
-    "main.js": "/MeanTareas/static/js/main.3a900447.js",
+    "main.css": "/MeanTareas/static/css/main.9999e466.css",
+    "main.js": "/MeanTareas/static/js/main.48af198a.js",
     "static/media/astronomia-cielo-nocturno-galactico-ciencia-combinada-ia-generativa.jpg": "/MeanTareas/static/media/astronomia-cielo-nocturno-galactico-ciencia-combinada-ia-generativa.d2fc36162eb2a5c405dc.jpg",
     "index.html": "/MeanTareas/index.html",
-    "main.800338e3.css.map": "/MeanTareas/static/css/main.800338e3.css.map",
-    "main.3a900447.js.map": "/MeanTareas/static/js/main.3a900447.js.map"
+    "main.9999e466.css.map": "/MeanTareas/static/css/main.9999e466.css.map",
+    "main.48af198a.js.map": "/MeanTareas/static/js/main.48af198a.js.map"
   },
   "entrypoints": [
-    "static/css/main.800338e3.css",
-    "static/js/main.3a900447.js"
+    "static/css/main.9999e466.css",
+    "static/js/main.48af198a.js"
   ]
 }
